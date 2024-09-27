@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.hw/hw_1/wave/hw_ila_data_6/hw_ila_data_6.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="12fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="59"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="91" />
+   <wvobject fp_name="u0_video_detect/o_refresh_rate" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/o_refresh_rate[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_refresh_rate[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/o_hs_total_num" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/o_hs_total_num[12:0]</obj_property>
+      <obj_property name="ObjectShortName">o_hs_total_num[12:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/o_vs_total_num" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/o_vs_total_num[12:0]</obj_property>
+      <obj_property name="ObjectShortName">o_vs_total_num[12:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/o_total_pix_num" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/o_total_pix_num[25:0]</obj_property>
+      <obj_property name="ObjectShortName">o_total_pix_num[25:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/o_video_start_pixel" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/o_video_start_pixel[12:0]</obj_property>
+      <obj_property name="ObjectShortName">o_video_start_pixel[12:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/o_hsyn_num" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/o_hsyn_num[12:0]</obj_property>
+      <obj_property name="ObjectShortName">o_hsyn_num[12:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/o_video_end_pixel" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/o_video_end_pixel[12:0]</obj_property>
+      <obj_property name="ObjectShortName">o_video_end_pixel[12:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/o_vsyn_num" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/o_vsyn_num[12:0]</obj_property>
+      <obj_property name="ObjectShortName">o_vsyn_num[12:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/r_de_total_cnt" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/r_de_total_cnt[25:0]</obj_property>
+      <obj_property name="ObjectShortName">r_de_total_cnt[25:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/r_hs_cnt" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/r_hs_cnt[12:0]</obj_property>
+      <obj_property name="ObjectShortName">r_hs_cnt[12:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/r_vs_cnt" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/r_vs_cnt[12:0]</obj_property>
+      <obj_property name="ObjectShortName">r_vs_cnt[12:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/o_video_start_H" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/o_video_start_H[12:0]</obj_property>
+      <obj_property name="ObjectShortName">o_video_start_H[12:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/o_actual_vs_rise" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/o_actual_vs_rise</obj_property>
+      <obj_property name="ObjectShortName">o_actual_vs_rise</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/i_de" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/i_de</obj_property>
+      <obj_property name="ObjectShortName">i_de</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/i_hsyn" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/i_hsyn</obj_property>
+      <obj_property name="ObjectShortName">i_hsyn</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/i_vsyn" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/i_vsyn</obj_property>
+      <obj_property name="ObjectShortName">i_vsyn</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_1" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_1</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_1</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_2" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_2</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_2</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_3" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_3</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_3</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_4" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_4</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_4</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_5" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_5</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_5</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_6" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_6</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_6</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_7" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_7</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_7</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_8" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_8</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_8</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_9" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_9</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_9</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_10" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_10</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_10</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_11" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_11</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_11</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_12" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_12</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_12</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_13" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_13</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_13</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_14" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_14</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_14</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_15" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_15</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_15</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_16" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_16</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_16</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_17" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_17</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_17</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_18" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_18</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_18</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_19" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_19</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_19</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_20" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_20</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_20</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_21" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_21</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_21</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_22" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_22</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_22</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_23" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_23</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_23</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_24" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_24</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_24</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_25" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_25</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_25</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_26" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_26</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_26</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_27" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_27</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_27</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_28" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_28</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_28</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_29" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_29</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_29</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_30" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_30</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_30</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_31" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_31</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_31</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_32" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_32</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_32</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_33" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_33</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_33</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_34" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_34</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_34</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_35" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_35</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_35</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_36" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_36</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_36</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_37" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_37</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_37</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_38" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_38</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_38</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_39" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_39</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_39</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_40" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_40</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_40</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_41" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_41</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_41</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_42" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_42</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_42</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_43" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_43</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_43</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_44" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_44</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_44</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_45" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_45</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_45</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_46" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_46</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_46</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_47" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_47</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_47</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_48" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_48</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_48</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_49" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_49</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_49</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_50" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_50</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_50</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_51" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_51</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_51</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_52" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_52</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_52</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_53" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_53</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_53</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_54" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_54</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_54</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_55" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_55</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_55</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_56" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_56</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_56</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_57" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_57</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_57</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_58" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_58</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_58</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_59" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_59</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_59</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_60" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_60</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_60</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_61" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_61</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_61</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_62" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_62</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_62</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_63" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_63</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_63</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_64" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_64</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_64</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_65" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_65</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_65</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_66" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_66</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_66</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_67" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_67</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_67</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_68" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_68</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_68</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_69" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_69</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_69</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_70" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_70</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_70</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_71" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_71</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_71</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_72" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_72</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_72</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_73" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_73</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_73</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;_74" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;_74</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;_74</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_video_detect/&lt;const0&gt;" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">u0_video_detect/&lt;const0&gt;</obj_property>
+      <obj_property name="ObjectShortName">&lt;const0&gt;</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>

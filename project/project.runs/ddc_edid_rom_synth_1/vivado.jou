@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Fri Sep 27 18:31:57 2024
+# Process ID: 3596
+# Current directory: E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.runs/ddc_edid_rom_synth_1
+# Command line: vivado.exe -log ddc_edid_rom.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ddc_edid_rom.tcl
+# Log file: E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.runs/ddc_edid_rom_synth_1/ddc_edid_rom.vds
+# Journal file: E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.runs/ddc_edid_rom_synth_1\vivado.jou
+#-----------------------------------------------------------
+source ddc_edid_rom.tcl -notrace

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.hw/hw_1/wave/hw_ila_data_2/hw_ila_data_2.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4097fs"></ZoomEndTime>
+      <Cursor1Time time="1076fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="219"></NameColumnWidth>
+      <ValueColumnWidth column_width="82"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="31" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/i_device_addr" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/i_device_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_device_addr[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/o_rd_de" type="logic">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/o_rd_de</obj_property>
+      <obj_property name="ObjectShortName">o_rd_de</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_rd_de" type="logic">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_rd_de</obj_property>
+      <obj_property name="ObjectShortName">r_rd_de</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/o_rd_addr" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/o_rd_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">o_rd_addr[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/i_rd_data" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/i_rd_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">i_rd_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_rd_data" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_rd_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_rd_data[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/i_rst_n" type="logic">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/i_rst_n</obj_property>
+      <obj_property name="ObjectShortName">i_rst_n</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/i_scl" type="logic">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/i_scl</obj_property>
+      <obj_property name="ObjectShortName">i_scl</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/i_sda" type="logic">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/i_sda</obj_property>
+      <obj_property name="ObjectShortName">i_sda</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/o_sda" type="logic">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/o_sda</obj_property>
+      <obj_property name="ObjectShortName">o_sda</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_bit_cnt" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_bit_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_bit_cnt[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_bus_wr_rd" type="logic">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_bus_wr_rd</obj_property>
+      <obj_property name="ObjectShortName">r_bus_wr_rd</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_check_ack" type="logic">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_check_ack</obj_property>
+      <obj_property name="ObjectShortName">r_check_ack</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_cs" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_cs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">r_cs[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_ns" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_ns[4:0]</obj_property>
+      <obj_property name="ObjectShortName">r_ns[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl[3:0]</obj_property>
+      <obj_property name="ObjectShortName">r_scl[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl_idle_en" type="logic">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl_idle_en</obj_property>
+      <obj_property name="ObjectShortName">r_scl_idle_en</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl_low_freq" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl_low_freq[19:0]</obj_property>
+      <obj_property name="ObjectShortName">r_scl_low_freq[19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl_low_freq_cnt" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl_low_freq_cnt[19:0]</obj_property>
+      <obj_property name="ObjectShortName">r_scl_low_freq_cnt[19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl_neg" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl_neg[5:0]</obj_property>
+      <obj_property name="ObjectShortName">r_scl_neg[5:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_wr_data_shift" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_wr_data_shift[7:0]</obj_property>
+      <obj_property name="ObjectShortName">r_wr_data_shift[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/ro_sda_en_cnt" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/ro_sda_en_cnt[19:0]</obj_property>
+      <obj_property name="ObjectShortName">ro_sda_en_cnt[19:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl_hight_freq" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl_hight_freq[19:0]</obj_property>
+      <obj_property name="ObjectShortName">r_scl_hight_freq[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl_hight_freq_cnt" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl_hight_freq_cnt[19:0]</obj_property>
+      <obj_property name="ObjectShortName">r_scl_hight_freq_cnt[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl_idle_cnt" type="array">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/r_scl_idle_cnt[29:0]</obj_property>
+      <obj_property name="ObjectShortName">r_scl_idle_cnt[29:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/w_bus_start" type="logic">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/w_bus_start</obj_property>
+      <obj_property name="ObjectShortName">w_bus_start</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/w_bus_stop" type="logic">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/w_bus_stop</obj_property>
+      <obj_property name="ObjectShortName">w_bus_stop</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/w_scl_neg" type="logic">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/w_scl_neg</obj_property>
+      <obj_property name="ObjectShortName">w_scl_neg</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/w_scl_pos" type="logic">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/w_scl_pos</obj_property>
+      <obj_property name="ObjectShortName">w_scl_pos</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/w_sda_neg" type="logic">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/w_sda_neg</obj_property>
+      <obj_property name="ObjectShortName">w_sda_neg</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/w_sda_pos" type="logic">
+      <obj_property name="ElementShortName">u0_ddc_edid_control/u0_ddc_edid_slave/u0_i2c_slave/w_sda_pos</obj_property>
+      <obj_property name="ObjectShortName">w_sda_pos</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>
