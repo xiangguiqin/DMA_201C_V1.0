@@ -1,9 +1,10 @@
 `timescale 1ns/1ps
 module lvds_top #(
  parameter p_debug_en       = "FALSE"
-,parameter p_local_clk_freq = 'd74_250_000
+,parameter p_local_clk_freq = 'd148_500_000
 ) (
  input                      i_rst_n
+,input                      i_local_clk
 
 ,input                      i_lvds_clk_p
 ,input                      i_lvds_clk_n
@@ -32,8 +33,8 @@ module lvds_top #(
 wire [14:0]  w_lvds_p;
 wire [14:0]  w_lvds_n;
 
-wire [29:0]  w_data  ;
-wire [29:0]  w_pixel_clk  ;
+wire [29:0]  w_data;
+wire         w_pixel_clk;
 
 wire [1:0]   w_vs;
 wire [1:0]   w_hs;
@@ -113,13 +114,42 @@ always @(posedge w_pixel_clk or negedge i_rst_n) begin
 	else ;
 end
 
+wire         w_1s_timeout    ;
+reg  [7:0]   r_1s_timeout    ;
+reg  [31:0]  r_1s_cnt        ;
+reg  [31:0]  r_pixel_clk_cnt ;
+assign w_1s_timeout = (r_1s_cnt == p_local_clk_freq-1);
+always @(posedge i_local_clk or negedge i_rst_n) begin
+	if(i_rst_n != 1'b1) 
+		r_1s_cnt <= 32'h0;
+	else if(w_1s_timeout == 1'b1)
+		r_1s_cnt <= 32'h0;
+	else 
+		r_1s_cnt <= r_1s_cnt + 32'd1;
+end
 
+always @(posedge i_local_clk or negedge i_rst_n) begin
+	if(i_rst_n != 1'b1) 
+		r_1s_timeout <= 'h0;
+	else 
+		r_1s_timeout <= {r_1s_timeout[6:0],w_1s_timeout};
+end
+
+
+always @(posedge w_pixel_clk or negedge i_rst_n) begin
+	if(i_rst_n != 1'b1) 
+		r_pixel_clk_cnt <= 32'h0;
+	else if(|r_1s_timeout)
+		r_pixel_clk_cnt <= 32'h0;
+	else 
+		r_pixel_clk_cnt <= r_pixel_clk_cnt + 32'd1;
+end
 
 generate
 
 	if(p_debug_en == "TRUE") begin : ila
 		
-		ila_128 u_ila_128(
+		ila_256 u_ila_256(
 			 .clk    (w_pixel_clk)
 			,.probe0 ({
 				 w_data
@@ -135,6 +165,10 @@ generate
 				,w_video_data
 				,r_de_cnt
 				,r_frame_de_cnt
+				,w_1s_timeout
+				,r_1s_timeout
+				,r_1s_cnt
+				,r_pixel_clk_cnt
 			})
 		
 		); 

@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Fri Sep 27 18:33:32 2024
+| Date         : Sun Sep 29 17:59:34 2024
 | Host         : DESKTOP-B97F23F running 64-bit major release  (build 9200)
 | Command      : report_utilization -file top_ceshi_utilization_synth.rpt -pb top_ceshi_utilization_synth.pb
 | Design       : top_ceshi
@@ -30,11 +30,11 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             |  767 |     0 |     32600 |  2.35 |
-|   LUT as Logic          |  767 |     0 |     32600 |  2.35 |
+| Slice LUTs*             | 1206 |     0 |     32600 |  3.70 |
+|   LUT as Logic          | 1206 |     0 |     32600 |  3.70 |
 |   LUT as Memory         |    0 |     0 |      9600 |  0.00 |
-| Slice Registers         |  499 |     0 |     65200 |  0.77 |
-|   Register as Flip Flop |  499 |     0 |     65200 |  0.77 |
+| Slice Registers         |  955 |     0 |     65200 |  1.46 |
+|   Register as Flip Flop |  955 |     0 |     65200 |  1.46 |
 |   Register as Latch     |    0 |     0 |     65200 |  0.00 |
 | F7 Muxes                |    0 |     0 |     16300 |  0.00 |
 | F8 Muxes                |    0 |     0 |      8150 |  0.00 |
@@ -55,9 +55,9 @@ Table of Contents
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
 | 2     |          Yes |           - |          Set |
-| 480   |          Yes |           - |        Reset |
-| 0     |          Yes |         Set |            - |
-| 17    |          Yes |       Reset |            - |
+| 936   |          Yes |           - |        Reset |
+| 15    |          Yes |         Set |            - |
+| 2     |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -145,18 +145,19 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDCE     |  480 |        Flop & Latch |
-| LUT6     |  322 |                 LUT |
-| LUT4     |  135 |                 LUT |
-| LUT3     |  131 |                 LUT |
-| LUT5     |  125 |                 LUT |
-| CARRY4   |  110 |          CarryLogic |
-| LUT1     |   53 |                 LUT |
-| LUT2     |   50 |                 LUT |
-| FDRE     |   17 |        Flop & Latch |
+| FDCE     |  936 |        Flop & Latch |
+| LUT6     |  414 |                 LUT |
+| LUT3     |  302 |                 LUT |
+| LUT5     |  207 |                 LUT |
+| CARRY4   |  205 |          CarryLogic |
+| LUT2     |  198 |                 LUT |
+| LUT4     |  175 |                 LUT |
+| LUT1     |   64 |                 LUT |
+| FDSE     |   15 |        Flop & Latch |
 | OBUF     |    8 |                  IO |
 | IBUF     |    5 |                  IO |
 | OBUFT    |    4 |                  IO |
+| FDRE     |    2 |        Flop & Latch |
 | FDPE     |    2 |        Flop & Latch |
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+
@@ -169,11 +170,10 @@ Table of Contents
 |    Ref Name    | Used |
 +----------------+------+
 | vio_4          |    2 |
+| ila_256        |    2 |
 | ddc_edid_rom   |    2 |
 | selectio_wiz_0 |    1 |
 | pll_27MHz      |    1 |
-| ila_256        |    1 |
-| ila_128        |    1 |
 +----------------+------+
 
 

@@ -42,7 +42,7 @@ module ddc_edid_control(
 
 
 ddc_edid_slave #(
- .p_debug_en("TRUE")
+ .p_debug_en("FALSE")
 )u0_ddc_edid_slave(
  .i_local_clk    (i_local_clk     )
 ,.i_rst_n        (i_rst_n         )

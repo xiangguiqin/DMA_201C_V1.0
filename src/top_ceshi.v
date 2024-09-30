@@ -8,6 +8,12 @@ module top_ceshi(
 ,output                     o_gsv2_clk_27M
 ,output                     o_gsv3_clk_27M
 
+//,input                      i_video_clk
+//,input                      i_video_vsync
+//,input                      i_video_hsync
+//,input                      i_video_de
+//,input         [11:0]       i_video_data 
+
 ,input                      i_lvds_clk_p
 ,input                      i_lvds_clk_n
 
@@ -156,42 +162,51 @@ BFM_RST u0_BFM_RST(
 
 
 
+//assign w_video_clk    = i_video_clk    ;
+//assign w_video_vsync  = i_video_vsync  ;
+//assign w_video_hsync  = i_video_hsync  ;
+//assign w_video_de     = i_video_de     ;
+//       w_video_data   = i_video_data   ;
+
+
+
 lvds_top #(
- .p_debug_en("FALSE")
+ .p_debug_en("TRUE")
 )u0_lvds_top(
- .i_rst_n       (w_global_rst_n )
+ .i_rst_n       (w_global_rst_n  )
+,.i_local_clk   (w_pll_clk148p5M )
 
-,.i_lvds_clk_p  (i_lvds_clk_p   )
-,.i_lvds_clk_n  (i_lvds_clk_n   )
+,.i_lvds_clk_p  (i_lvds_clk_p    )
+,.i_lvds_clk_n  (i_lvds_clk_n    )
 
-,.i_lvds_de_p   (i_lvds_de_p    )
-,.i_lvds_de_n   (i_lvds_de_n    )
+,.i_lvds_de_p   (i_lvds_de_p     )
+,.i_lvds_de_n   (i_lvds_de_n     )
 
-,.i_lvds_hs_p   (i_lvds_hs_p    )
-,.i_lvds_hs_n   (i_lvds_hs_n    )
+,.i_lvds_hs_p   (i_lvds_hs_p     )
+,.i_lvds_hs_n   (i_lvds_hs_n     )
 
-,.i_lvds_vs_p   (i_lvds_vs_p    )
-,.i_lvds_vs_n   (i_lvds_vs_n    )
+,.i_lvds_vs_p   (i_lvds_vs_p     )
+,.i_lvds_vs_n   (i_lvds_vs_n     )
 
-,.i_lvds_data_p (i_lvds_data_p  )
-,.i_lvds_data_n (i_lvds_data_n  )
+,.i_lvds_data_p (i_lvds_data_p   )
+,.i_lvds_data_n (i_lvds_data_n   )
 
-,.o_video_clk   (w_video_clk    )
-,.o_video_vsync (w_video_vsync  )
-,.o_video_hsync (w_video_hsync  )
-,.o_video_de    (w_video_de     )
-,.o_video_data  (w_video_data   )
+,.o_video_clk   (w_video_clk     )
+,.o_video_vsync (w_video_vsync   )
+,.o_video_hsync (w_video_hsync   )
+,.o_video_de    (w_video_de      )
+,.o_video_data  (w_video_data    )
 );
 
 video_signal_adjust #(
  .pDATA_WIDTH  (`dVID_DW )
 ) u0_video_signal_adjust (
- .i_clk        (w_video_clk)//i_video_clk    )
-,.i_rst_n      (w_global_rst_n )
-,.i_vsyn       (w_video_vsync)//i_video_vsync  )
-,.i_hsyn       (w_video_hsync)//i_video_hsync  )
-,.i_de		   (w_video_de   )//i_video_de     )
-,.i_video_data (w_video_data )//i_video_data   )
+ .i_rst_n      (w_global_rst_n )
+,.i_clk        (w_video_clk    )//i_video_clk    )
+,.i_vsyn       (w_video_vsync  )//i_video_vsync  )
+,.i_hsyn       (w_video_hsync  )//i_video_hsync  )
+,.i_de		   (w_video_de     )//i_video_de     )
+,.i_video_data (w_video_data   )//i_video_data   )
 ,.o_vsyn       (w_adjust_vsyn  )
 ,.o_hsyn       (w_adjust_hsyn  )
 ,.o_de		   (w_adjust_de    )
@@ -199,10 +214,10 @@ video_signal_adjust #(
 );
 
 video_detect #(
- .p_debug_en("FALSE")
+ .p_debug_en("TRUE")
 ,.p_local_clk_freq    ('d148_500_000)
 ) u0_video_detect (
- .i_video_clk         (i_video_clk                )
+ .i_video_clk         (w_video_clk                )
 ,.i_local_clk         (w_pll_clk148p5M            )
 ,.i_rst_n             (w_global_rst_n             )
 ,.i_vsyn              (w_adjust_vsyn              )

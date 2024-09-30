@@ -18,6 +18,7 @@ proc create_report { reportName command } {
   }
 }
 set_param tcl.collectionResultDisplayLimit 0
+set_param chipscope.maxJobs 4
 set_param xicom.use_bs_reader 1
 create_project -in_memory -part xc7s50fgga484-2
 
@@ -25,55 +26,55 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.cache/wt [current_project]
-set_property parent.project_path E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.xpr [current_project]
+set_property webtalk.parent_dir E:/FPGA_project/DMA_201C_V1.0/project/project.cache/wt [current_project]
+set_property parent.project_path E:/FPGA_project/DMA_201C_V1.0/project/project.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.cache/ip [current_project]
+set_property ip_output_repo e:/FPGA_project/DMA_201C_V1.0/project/project.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-add_files E:/FPGA_project/Xilinx/DMA_201C_V1.0/src/edid/edid.coe
+add_files E:/FPGA_project/DMA_201C_V1.0/src/edid/edid.coe
 read_verilog -library xil_defaultlib {
-  E:/FPGA_project/Xilinx/DMA_201C_V1.0/src/BFM_RST.v
-  E:/FPGA_project/Xilinx/DMA_201C_V1.0/src/F_delay.v
-  E:/FPGA_project/Xilinx/DMA_201C_V1.0/src/edid/ddc_edid_control.v
-  E:/FPGA_project/Xilinx/DMA_201C_V1.0/src/edid/ddc_edid_slave.v
-  E:/FPGA_project/Xilinx/DMA_201C_V1.0/src/edid/i2c_slave.v
-  E:/FPGA_project/Xilinx/DMA_201C_V1.0/src/led.v
-  E:/FPGA_project/Xilinx/DMA_201C_V1.0/src/lvds_top/lvds_top.v
-  E:/FPGA_project/Xilinx/DMA_201C_V1.0/src/detect/video_detect.v
-  E:/FPGA_project/Xilinx/DMA_201C_V1.0/src/detect/video_judgement.v
-  E:/FPGA_project/Xilinx/DMA_201C_V1.0/src/detect/video_signal_adjust.v
-  E:/FPGA_project/Xilinx/DMA_201C_V1.0/src/detect/video_syn_detect.v
-  E:/FPGA_project/Xilinx/DMA_201C_V1.0/src/top_ceshi.v
+  E:/FPGA_project/DMA_201C_V1.0/src/BFM_RST.v
+  E:/FPGA_project/DMA_201C_V1.0/src/F_delay.v
+  E:/FPGA_project/DMA_201C_V1.0/src/edid/ddc_edid_control.v
+  E:/FPGA_project/DMA_201C_V1.0/src/edid/ddc_edid_slave.v
+  E:/FPGA_project/DMA_201C_V1.0/src/edid/i2c_slave.v
+  E:/FPGA_project/DMA_201C_V1.0/src/led.v
+  E:/FPGA_project/DMA_201C_V1.0/src/lvds_top/lvds_top.v
+  E:/FPGA_project/DMA_201C_V1.0/src/detect/video_detect.v
+  E:/FPGA_project/DMA_201C_V1.0/src/detect/video_judgement.v
+  E:/FPGA_project/DMA_201C_V1.0/src/detect/video_signal_adjust.v
+  E:/FPGA_project/DMA_201C_V1.0/src/detect/video_syn_detect.v
+  E:/FPGA_project/DMA_201C_V1.0/src/top_ceshi.v
 }
-read_ip -quiet E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_256/ila_256.xci
-set_property used_in_synthesis false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_256/ila_v6_2/constraints/ila_impl.xdc]
-set_property used_in_implementation false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_256/ila_v6_2/constraints/ila_impl.xdc]
-set_property used_in_implementation false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_256/ila_v6_2/constraints/ila.xdc]
-set_property used_in_implementation false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_256/ila_256_ooc.xdc]
+read_ip -quiet E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_256/ila_256.xci
+set_property used_in_synthesis false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_256/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_256/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_256/ila_v6_2/constraints/ila.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_256/ila_256_ooc.xdc]
 
-read_ip -quiet E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/selectio_wiz_0/selectio_wiz_0.xci
-set_property used_in_implementation false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/selectio_wiz_0/selectio_wiz_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/selectio_wiz_0/selectio_wiz_0.xdc]
+read_ip -quiet E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/selectio_wiz_0/selectio_wiz_0.xci
+set_property used_in_implementation false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/selectio_wiz_0/selectio_wiz_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/selectio_wiz_0/selectio_wiz_0.xdc]
 
-read_ip -quiet E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_128/ila_128.xci
-set_property used_in_synthesis false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_128/ila_v6_2/constraints/ila_impl.xdc]
-set_property used_in_implementation false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_128/ila_v6_2/constraints/ila_impl.xdc]
-set_property used_in_implementation false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_128/ila_v6_2/constraints/ila.xdc]
-set_property used_in_implementation false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_128/ila_128_ooc.xdc]
+read_ip -quiet E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_128/ila_128.xci
+set_property used_in_synthesis false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_128/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_128/ila_v6_2/constraints/ila_impl.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_128/ila_v6_2/constraints/ila.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_128/ila_128_ooc.xdc]
 
-read_ip -quiet E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/pll_27MHz/pll_27MHz.xci
-set_property used_in_implementation false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/pll_27MHz/pll_27MHz_board.xdc]
-set_property used_in_implementation false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/pll_27MHz/pll_27MHz.xdc]
-set_property used_in_implementation false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/pll_27MHz/pll_27MHz_ooc.xdc]
+read_ip -quiet E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/pll_27MHz/pll_27MHz.xci
+set_property used_in_implementation false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/pll_27MHz/pll_27MHz_board.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/pll_27MHz/pll_27MHz.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/pll_27MHz/pll_27MHz_ooc.xdc]
 
-read_ip -quiet E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ddc_edid_rom/ddc_edid_rom.xci
-set_property used_in_implementation false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ddc_edid_rom/ddc_edid_rom_ooc.xdc]
+read_ip -quiet E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ddc_edid_rom/ddc_edid_rom.xci
+set_property used_in_implementation false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ddc_edid_rom/ddc_edid_rom_ooc.xdc]
 
-read_ip -quiet E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/vio_4/vio_4.xci
-set_property used_in_implementation false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/vio_4/vio_4.xdc]
-set_property used_in_implementation false [get_files -all e:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/vio_4/vio_4_ooc.xdc]
+read_ip -quiet E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/vio_4/vio_4.xci
+set_property used_in_implementation false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/vio_4/vio_4.xdc]
+set_property used_in_implementation false [get_files -all e:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/vio_4/vio_4_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -83,8 +84,8 @@ set_property used_in_implementation false [get_files -all e:/FPGA_project/Xilinx
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/constrs_1/new/pins.xdc
-set_property used_in_implementation false [get_files E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/constrs_1/new/pins.xdc]
+read_xdc E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/constrs_1/new/pins.xdc
+set_property used_in_implementation false [get_files E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/constrs_1/new/pins.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]

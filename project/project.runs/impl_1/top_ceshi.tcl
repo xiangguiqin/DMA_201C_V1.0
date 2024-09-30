@@ -71,19 +71,19 @@ set rc [catch {
   create_project -in_memory -part xc7s50fgga484-2
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
-  set_property webtalk.parent_dir E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.cache/wt [current_project]
-  set_property parent.project_path E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.xpr [current_project]
-  set_property ip_output_repo E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.cache/ip [current_project]
+  set_property webtalk.parent_dir E:/FPGA_project/DMA_201C_V1.0/project/project.cache/wt [current_project]
+  set_property parent.project_path E:/FPGA_project/DMA_201C_V1.0/project/project.xpr [current_project]
+  set_property ip_output_repo E:/FPGA_project/DMA_201C_V1.0/project/project.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
-  add_files -quiet E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.runs/synth_1/top_ceshi.dcp
-  read_ip -quiet E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_256/ila_256.xci
-  read_ip -quiet E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/selectio_wiz_0/selectio_wiz_0.xci
-  read_ip -quiet E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_128/ila_128.xci
-  read_ip -quiet E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/pll_27MHz/pll_27MHz.xci
-  read_ip -quiet E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ddc_edid_rom/ddc_edid_rom.xci
-  read_ip -quiet E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/vio_4/vio_4.xci
-  read_xdc E:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/constrs_1/new/pins.xdc
+  add_files -quiet E:/FPGA_project/DMA_201C_V1.0/project/project.runs/synth_1/top_ceshi.dcp
+  read_ip -quiet E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_256/ila_256.xci
+  read_ip -quiet E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/selectio_wiz_0/selectio_wiz_0.xci
+  read_ip -quiet E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ila_128/ila_128.xci
+  read_ip -quiet E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/pll_27MHz/pll_27MHz.xci
+  read_ip -quiet E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/ddc_edid_rom/ddc_edid_rom.xci
+  read_ip -quiet E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/vio_4/vio_4.xci
+  read_xdc E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/constrs_1/new/pins.xdc
   link_design -top top_ceshi -part xc7s50fgga484-2
   close_msg_db -file init_design.pb
 } RESULT]

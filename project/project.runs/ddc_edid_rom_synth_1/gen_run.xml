@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="ddc_edid_rom_synth_1" LaunchPart="xc7s50fgga484-2" LaunchTime="1727433115">
   <File Type="PA-TCL" Name="ddc_edid_rom.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="ddc_edid_rom_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="ddc_edid_rom_reports.tcl"/>
   <File Type="RDS-RDS" Name="ddc_edid_rom.vds"/>
   <File Type="RDS-UTIL" Name="ddc_edid_rom_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="ddc_edid_rom_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="ddc_edid_rom.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="ddc_edid_rom_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="ddc_edid_rom_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/ddc_edid_rom">
     <File Path="$PSRCDIR/sources_1/ip/ddc_edid_rom/ddc_edid_rom.xci">
       <FileInfo>

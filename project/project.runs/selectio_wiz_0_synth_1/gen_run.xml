@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="selectio_wiz_0_synth_1" LaunchPart="xc7s50fgga484-2" LaunchTime="1726045374">
+<GenRun Id="selectio_wiz_0_synth_1" LaunchPart="xc7s50fgga484-2" LaunchTime="1727597659">
   <File Type="PA-TCL" Name="selectio_wiz_0.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="selectio_wiz_0_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="selectio_wiz_0_reports.tcl"/>
   <File Type="RDS-RDS" Name="selectio_wiz_0.vds"/>
   <File Type="RDS-UTIL" Name="selectio_wiz_0_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="selectio_wiz_0_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="selectio_wiz_0.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="selectio_wiz_0_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="selectio_wiz_0_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/selectio_wiz_0">
     <File Path="$PSRCDIR/sources_1/ip/selectio_wiz_0/selectio_wiz_0.xci">
       <FileInfo>

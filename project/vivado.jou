@@ -1,0 +1,186 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Sun Sep 29 15:54:29 2024
+# Process ID: 1836
+# Current directory: E:/FPGA_project/DMA_201C_V1.0/project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13404 E:\FPGA_project\DMA_201C_V1.0\project\project.xpr
+# Log file: E:/FPGA_project/DMA_201C_V1.0/project/vivado.log
+# Journal file: E:/FPGA_project/DMA_201C_V1.0/project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/FPGA_project/DMA_201C_V1.0/project/project.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+set_property IOSTANDARD DIFF_HSTL_I [get_ports [list i_lvds_clk_p]]
+set_property IOSTANDARD DIFF_HSTL_I [get_ports [list i_lvds_clk_p]]
+set_property IOSTANDARD DIFF_HSTL_I [get_ports [list i_lvds_de_p]]
+set_property IOSTANDARD DIFF_HSTL_I [get_ports [list i_lvds_vs_p]]
+set_property IOSTANDARD DIFF_HSTL_I [get_ports [list {i_lvds_data_p[10]}]]
+close_design
+set_property -dict [list CONFIG.BUS_IO_STD {LVDS_25} CONFIG.SERIALIZATION_FACTOR {4} CONFIG.SELIO_CLK_IO_STD {LVDS_25} CONFIG.CLK_FWD_IO_STD {LVDS_25}] [get_ips selectio_wiz_0]
+generate_target all [get_files  E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/selectio_wiz_0/selectio_wiz_0.xci]
+catch { config_ip_cache -export [get_ips -all selectio_wiz_0] }
+export_ip_user_files -of_objects [get_files E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/selectio_wiz_0/selectio_wiz_0.xci] -no_script -sync -force -quiet
+reset_run selectio_wiz_0_synth_1
+launch_runs -jobs 8 selectio_wiz_0_synth_1
+export_simulation -of_objects [get_files E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/selectio_wiz_0/selectio_wiz_0.xci] -directory E:/FPGA_project/DMA_201C_V1.0/project/project.ip_user_files/sim_scripts -ip_user_files_dir E:/FPGA_project/DMA_201C_V1.0/project/project.ip_user_files -ipstatic_source_dir E:/FPGA_project/DMA_201C_V1.0/project/project.ip_user_files/ipstatic -lib_map_path [list {modelsim=E:/FPGA_project/DMA_201C_V1.0/project/project.cache/compile_simlib/modelsim} {questa=E:/FPGA_project/DMA_201C_V1.0/project/project.cache/compile_simlib/questa} {riviera=E:/FPGA_project/DMA_201C_V1.0/project/project.cache/compile_simlib/riviera} {activehdl=E:/FPGA_project/DMA_201C_V1.0/project/project.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.bit} [get_hw_devices xc7s50_0]
+set_property PROBES.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.ltx} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.ltx} [get_hw_devices xc7s50_0]
+current_hw_device [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]]
+set_property PROBES.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.ltx} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.ltx} [get_hw_devices xc7s50_0]
+set_property PROGRAM.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.bit} [get_hw_devices xc7s50_0]
+program_hw_devices [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {u0_lvds_top/r_1s_cnt} {u0_lvds_top/r_1s_timeout} {u0_lvds_top/r_de_cnt} {u0_lvds_top/r_frame_de_cnt} {u0_lvds_top/r_pixel_clk_cnt} {u0_lvds_top/w_1s_timeout} {u0_lvds_top/w_de} {u0_lvds_top/w_de_1} {u0_lvds_top/w_de_negedge} {u0_lvds_top/w_de_posedge} {u0_lvds_top/w_hs} {u0_lvds_top/w_hs_1} {u0_lvds_top/w_hs_negedge} {u0_lvds_top/w_hs_posedge} {u0_lvds_top/w_video_data} {u0_lvds_top/w_video_data_1} {u0_lvds_top/w_vs} {u0_lvds_top/w_vs_1} {u0_lvds_top/w_vs_negedge} {u0_lvds_top/w_vs_posedge} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+add_wave -into {hw_ila_data_2.wcfg} -radix hex { {u0_video_detect/i_de} {u0_video_detect/i_hsyn} {u0_video_detect/i_vsyn} }
+add_wave -into {hw_ila_data_2.wcfg} -radix unsigned { {u0_video_detect/o_hsyn_num} {u0_video_detect/o_refresh_rate} {u0_video_detect/o_total_pix_num} {u0_video_detect/o_video_end_pixel} {u0_video_detect/o_video_start_H} {u0_video_detect/o_video_start_pixel} {u0_video_detect/o_vs_total_num} {u0_video_detect/o_vsyn_num} {u0_video_detect/r_de_total_cnt} {u0_video_detect/r_hs_cnt} {u0_video_detect/r_vs_cnt} }
+add_wave -into {hw_ila_data_2.wcfg} -radix hex { {u0_video_detect/o_actual_vs_rise} {u0_video_detect/o_hs_total_num} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.bit} [get_hw_devices xc7s50_0]
+set_property PROBES.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.ltx} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.ltx} [get_hw_devices xc7s50_0]
+current_hw_device [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+set_property PROBES.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.ltx} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.ltx} [get_hw_devices xc7s50_0]
+set_property PROGRAM.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.bit} [get_hw_devices xc7s50_0]
+program_hw_devices [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+add_wave -into {hw_ila_data_1.wcfg} -radix hex { {u0_lvds_top/r_1s_cnt} {u0_lvds_top/r_1s_timeout} {u0_lvds_top/r_de_cnt} {u0_lvds_top/r_frame_de_cnt} {u0_lvds_top/r_pixel_clk_cnt} {u0_lvds_top/w_1s_timeout} {u0_lvds_top/w_de} {u0_lvds_top/w_de_1} {u0_lvds_top/w_de_negedge} {u0_lvds_top/w_de_posedge} {u0_lvds_top/w_hs} {u0_lvds_top/w_hs_1} {u0_lvds_top/w_hs_negedge} {u0_lvds_top/w_hs_posedge} {u0_lvds_top/w_video_data} {u0_lvds_top/w_video_data_1} {u0_lvds_top/w_vs} {u0_lvds_top/w_vs_1} {u0_lvds_top/w_vs_negedge} {u0_lvds_top/w_vs_posedge} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+save_wave_config {E:/FPGA_project/DMA_201C_V1.0/project/project.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wcfg}
+close_hw_manager
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.bit} [get_hw_devices xc7s50_0]
+set_property PROBES.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.ltx} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.ltx} [get_hw_devices xc7s50_0]
+current_hw_device [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+set_property PROBES.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.ltx} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.ltx} [get_hw_devices xc7s50_0]
+set_property PROGRAM.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.bit} [get_hw_devices xc7s50_0]
+program_hw_devices [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_1 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+display_hw_ila_data [ get_hw_ila_data hw_ila_data_2 -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes u0_lvds_top/w_1s_timeout -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes u0_lvds_top/w_1s_timeout -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+set_property TRIGGER_COMPARE_VALUE gt8'h01 [get_hw_probes u0_lvds_top/r_1s_timeout -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+set_property TRIGGER_COMPARE_VALUE eq8'h01 [get_hw_probes u0_lvds_top/r_1s_timeout -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+set_property TRIGGER_COMPARE_VALUE eq8'b0000_0001 [get_hw_probes u0_lvds_top/r_1s_timeout -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+set_property TRIGGER_COMPARE_VALUE eq8'b1000_0001 [get_hw_probes u0_lvds_top/r_1s_timeout -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+set_property TRIGGER_COMPARE_VALUE eq8'b1000_0000 [get_hw_probes u0_lvds_top/r_1s_timeout -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property TRIGGER_COMPARE_VALUE eq8'hXX [get_hw_probes u0_lvds_top/r_1s_timeout -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes u0_lvds_top/w_vs_negedge -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}] -trigger_now
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+set_property PROBES.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.ltx} [get_hw_devices xc7s50_0]
+set_property FULL_PROBES.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.ltx} [get_hw_devices xc7s50_0]
+set_property PROGRAM.FILE {E:/FPGA_project/DMA_201C_V1.0/project/project.runs/impl_1/top_ceshi.bit} [get_hw_devices xc7s50_0]
+program_hw_devices [get_hw_devices xc7s50_0]
+refresh_hw_device [lindex [get_hw_devices xc7s50_0] 0]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes u0_lvds_top/w_vs_negedge -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+add_wave -into {hw_ila_data_2.wcfg} -radix hex { {u0_video_detect/i_de} {u0_video_detect/i_hsyn} {u0_video_detect/i_vsyn} }
+add_wave -into {hw_ila_data_2.wcfg} -radix unsigned { {u0_video_detect/o_hsyn_num} {u0_video_detect/o_refresh_rate} {u0_video_detect/o_total_pix_num} {u0_video_detect/o_video_end_pixel} {u0_video_detect/o_video_start_H} {u0_video_detect/o_video_start_pixel} {u0_video_detect/o_vs_total_num} {u0_video_detect/o_vsyn_num} {u0_video_detect/r_de_total_cnt} {u0_video_detect/r_hs_cnt} {u0_video_detect/r_vs_cnt} }
+add_wave -into {hw_ila_data_2.wcfg} -radix hex { {u0_video_detect/o_actual_vs_rise} {u0_video_detect/o_hs_total_num} }
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]
+wait_on_hw_ila -timeout 0 [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]
+upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]
+set_property TRIGGER_COMPARE_VALUE eq1'bX [get_hw_probes u0_video_detect/i_vsyn -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'bR [get_hw_probes u0_video_detect/i_hsyn -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_video_detect/ila.u_ila_256"}]]
+set_property TRIGGER_COMPARE_VALUE eq1'b1 [get_hw_probes u0_lvds_top/w_1s_timeout -of_objects [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]
+run_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+wait_on_hw_ila [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]
+display_hw_ila_data [upload_hw_ila_data [get_hw_ilas -of_objects [get_hw_devices xc7s50_0] -filter {CELL_NAME=~"u0_lvds_top/ila.u_ila_256"}]]

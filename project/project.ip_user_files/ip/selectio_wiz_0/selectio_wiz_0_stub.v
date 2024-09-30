@@ -1,10 +1,10 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-// Date        : Wed Sep 11 17:03:30 2024
-// Host        : DESKTOP-AR7JAMA running 64-bit major release  (build 9200)
+// Date        : Sun Sep 29 16:14:58 2024
+// Host        : DESKTOP-B97F23F running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
-//               d:/FPGA_project/Xilinx/DMA_201C_V1.0/project/project.srcs/sources_1/ip/selectio_wiz_0/selectio_wiz_0_stub.v
+//               E:/FPGA_project/DMA_201C_V1.0/project/project.srcs/sources_1/ip/selectio_wiz_0/selectio_wiz_0_stub.v
 // Design      : selectio_wiz_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7s50fgga484-2
